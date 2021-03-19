@@ -1,6 +1,6 @@
 [toc]
 
-# K210 YOLO V3 framework
+# K210 YOLO V3 framework for JETSON_NANO
 
 This is a clear, extensible yolo v3 framework
 
@@ -15,6 +15,13 @@ This is a clear, extensible yolo v3 framework
 ## Set Environment
 
 Testing in ubuntu 18.04, `Python 3.7.1`, Others in `requirements.txt`.
+
+## ADD python-matplotlib
+
+you must install python3-matplotlib.
+```sh
+sudo apt-get install python3-matplotlib
+```
 
 ## Prepare dataset
 
