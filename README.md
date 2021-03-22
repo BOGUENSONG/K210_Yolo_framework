@@ -16,11 +16,14 @@ This is a clear, extensible yolo v3 framework
 
 Testing in ubuntu 18.04, `Python 3.7.1`, Others in `requirements.txt`.
 
-## ADD python-matplotlib
+## ADD python-matplotlib , libfreetype6-dev
 
-you must install python3-matplotlib.
+you must install python3-matplotlib and libfreetype6-dev because jetson nano cannot find in pip3 
 ```sh
 sudo apt-get install python3-matplotlib
+```
+```sh
+sudo apt-get install libfreetype6-dev
 ```
 
 ## Prepare dataset
